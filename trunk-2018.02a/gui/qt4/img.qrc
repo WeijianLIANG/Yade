@@ -1,8 +1,0 @@
-<RCC>
-  <qresource prefix="img">
-    <file>yade-favicon.xpm</file>
-    <file>XYZ.xpm</file>
-    <file>YZX.xpm</file>
-    <file>ZXY.xpm</file>
-  </qresource>
-</RCC>
