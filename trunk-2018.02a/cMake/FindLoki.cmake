@@ -5,8 +5,8 @@
 #  LOKI_LIBRARY, libraries to link against to use GL2PS.
 #  LOKI_FOUND, If false, do not try to use GL2PS.
 
-FIND_PATH(LOKI_INCLUDE_DIR loki/Typelist.h)
-FIND_LIBRARY(LOKI_LIBRARY NAMES loki )
+FIND_PATH(LOKI_INCLUDE_DIR loki/Typelist.h  PATHS /home/liang/software/loki/loki-0.1.7/include/)
+FIND_LIBRARY(LOKI_LIBRARY NAMES loki PATHS /home/liang/software/loki/loki-0.1.7/lib )
 
 # handle the QUIETLY and REQUIRED arguments and set LOKI_FOUND to TRUE if
 # all listed variables are TRUE
