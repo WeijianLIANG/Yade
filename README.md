@@ -1,7 +1,7 @@
 # Yade
 Yade repository
 
-
+For version Yade-1.12.0
 ###############
 Installation
 ###############
@@ -75,7 +75,7 @@ trunk version allows one to use newly added features, which are not yet
 available in packaged versions. 
 
 Download
-^^^^^^^^^^
+----------
 
 If you want to install from source, you can install either a release 
 (numbered version, which is frozen) or the current developement version 
@@ -105,28 +105,28 @@ For those behind firewall, you can download `any revision  <https://www.yade-dem
 Release and trunk sources are compiled in the same way.
 
 Prerequisites
-^^^^^^^^^^^^^
+--------------
 
 Yade relies on a number of external software to run; they are checked before the compilation starts.
 Some of them are only optional. The last ones are only relevant for using the fluid coupling module (:yref:`FlowEngine`).
 
-* `cmake <http://www.cmake.org/>`_ build system
-* `gcc <http://www.gcc.gnu.org>`_ compiler (g++); other compilers will not work; you need g++>=4.2 for openMP support
-* `boost <http://www.boost.org/>`_ 1.35 or later
-* `qt4 <http://www.qt.nokia.com>`_ library
-* `freeglut3 <http://freeglut.sourceforge.net>`_
-* `libQGLViewer <http://www.libqglviewer.com>`_
-* `python <http://www.python.org>`_, `numpy <http://numpy.scipy.org>`_, `ipython <http://ipython.scipy.org>`_
-* `matplotlib <http://matplotlib.sf.net>`_
-* `eigen3 <http://eigen.tuxfamily.org>`_ algebra library (minimal required version 3.2.1)
-* `gdb <http://www.gnu.org/software/gdb>`_ debugger
-* `sqlite3 <http://www.sqlite.org>`_ database engine
-* `Loki <http://loki-lib.sf.net>`_ library
-* `VTK <http://www.vtk.org/>`_ library (optional but recommended)
-* `CGAL <http://www.cgal.org/>`_ library (optional)
-* `SuiteSparse <http://www.cise.ufl.edu/research/sparse/SuiteSparse/>`_ sparse algebra library (fluid coupling, optional, requires eigen>=3.1)
-* `OpenBLAS <http://www.openblas.net/>`_ optimized and parallelized alternative to the standard blas+lapack (fluid coupling, optional)
-* `Metis <http://glaros.dtc.umn.edu/gkhome/metis/metis/overview/>`_ matrix preconditioning (fluid coupling, optional)
+* `cmake <http://www.cmake.org/>`  build system
+* `gcc <http://www.gcc.gnu.org>`  compiler (g++); other compilers will not work; you need g++>=4.2 for openMP support
+* `boost <http://www.boost.org/>` 1.35 or later
+* `qt4 <http://www.qt.nokia.com>` library
+* `freeglut3 <http://freeglut.sourceforge.net>`
+* `libQGLViewer <http://www.libqglviewer.com>`
+* `python <http://www.python.org>`_, `numpy <http://numpy.scipy.org>`, `ipython <http://ipython.scipy.org>`_
+* `matplotlib <http://matplotlib.sf.net>`
+* `eigen3 <http://eigen.tuxfamily.org>` algebra library (minimal required version 3.2.1)
+* `gdb <http://www.gnu.org/software/gdb>` debugger
+* `sqlite3 <http://www.sqlite.org>` database engine
+* `Loki <http://loki-lib.sf.net>` library
+* `VTK <http://www.vtk.org/>` library (optional but recommended)
+* `CGAL <http://www.cgal.org/>` library (optional)
+* `SuiteSparse <http://www.cise.ufl.edu/research/sparse/SuiteSparse/>` sparse algebra library (fluid coupling, optional, requires eigen>=3.1)
+* `OpenBLAS <http://www.openblas.net/>` optimized and parallelized alternative to the standard blas+lapack (fluid coupling, optional)
+* `Metis <http://glaros.dtc.umn.edu/gkhome/metis/metis/overview/>` matrix preconditioning (fluid coupling, optional)
 
 Most of the list above is very likely already packaged for your distribution. In case you are confronted
 with some errors concerning not available packages (e.g. Package libmetis-dev is not available) it may be necessary 
@@ -139,7 +139,7 @@ The following commands have to be executed in command line of corresponding
 distributions. Just copy&paste to the terminal. To perform commands you 
 should have root privileges
 
-.. warning:: If you have Ubuntu 12.10 or older, you need to install libqglviewer-qt4-dev
+!!!warning:: If you have Ubuntu 12.10 or older, you need to install libqglviewer-qt4-dev
  package instead of libqglviewer-dev.
 
  
@@ -179,7 +179,7 @@ names of Debian-packages.
 
 
 Compilation
-^^^^^^^^^^^
+------------
 
 You should create a separate build-place-folder, where Yade will be configured 
 and where the source code will be compiled. Here is an example for a folder structure::
